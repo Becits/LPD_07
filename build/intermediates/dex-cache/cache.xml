@@ -3,66 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Becis\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_2712f53fe14c31091a9fe3a2f7438d1b8930b014\classes.dex" />
+        sha1="075c681a89f40fc809f3c302460baa0e854fc653">
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3957df14d607b15e4fc94d111e522d6350c1a89d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Becis\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_f3bb42e669228fce2599bfbc34af824e6a9a9d4e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Becis\.android\build-cache\108979f8a43f363a6413dbd26c6e98b4f28c9df0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_50d193bafb8831774bb6fd3dac6e4624f5b27468\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Becis\.android\build-cache\9aa3922293a5a3eb4bba58f1cbc746419d8e661a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7928e6e063b8cfad7a1068fc3514c07b91034718\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android\LPD_07\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_680c182e22ae6a55259071fceacc05f2f4dda7ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android\LPD_07\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f78ab8f998c925686d261777a5dc88cad3997adc">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_82cb62bdaad80cb48a2b1c22a29479f335fb0644\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Becis\.android\build-cache\5906c2829f01335aa2ba0706e6c61ca94e58419f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b855e9ad183cf7b3f6ace6519d86f9b0dcc3355\classes.dex" />
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_75295e91cd873367a0c7aaae3d19fe391f3c8869\classes.dex" />
     </item>
 
 </items>
