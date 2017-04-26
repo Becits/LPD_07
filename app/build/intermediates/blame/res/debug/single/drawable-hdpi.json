@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_profile_pic.png",
-        "source": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\src\\main\\res\\drawable-hdpi\\ic_profile_pic.png"
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_event.png",
+        "source": "E:\\Android\\LPD_07\\app\\src\\main\\res\\drawable-hdpi\\ic_event.png"
     },
     {
-        "merged": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_event.png",
-        "source": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\src\\main\\res\\drawable-hdpi\\ic_event.png"
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_profile_pic.png",
+        "source": "E:\\Android\\LPD_07\\app\\src\\main\\res\\drawable-hdpi\\ic_profile_pic.png"
     }
 ]
