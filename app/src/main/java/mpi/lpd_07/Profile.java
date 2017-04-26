@@ -34,7 +34,7 @@ public class Profile extends AppCompatActivity {
             String Vards = com.facebook.Profile.getCurrentProfile().getName();
             TextView VardsUz = (TextView) findViewById(R.id.tv_p_vards);
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
-            Picasso.with(this).load(com.facebook.Profile.getCurrentProfile().getProfilePictureUri(120, 120)).into(imageView);
+            Picasso.with(this).load(com.facebook.Profile.getCurrentProfile().getProfilePictureUri(100, 120)).into(imageView);
             VardsUz.setText(Vards);
 
         }catch (Exception e){

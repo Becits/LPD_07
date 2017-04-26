@@ -36,6 +36,7 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
@@ -80,10 +81,20 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
+        boolean fbLogout = false;
+        try{
+            fbLogout = getIntent().getExtras().getBoolean("FBlogout");
+        }catch (Exception e){
+
+        }
         loginButton = (LoginButton)findViewById(R.id.login_button);
         callbackManager = CallbackManager.Factory.create();
         final int duration = Toast.LENGTH_SHORT;
         final Context context = getApplicationContext();
+        if (fbLogout){
+            LoginManager.getInstance().logOut();
+            fbLogout = false;
+        }
         try{
             loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
                 @Override

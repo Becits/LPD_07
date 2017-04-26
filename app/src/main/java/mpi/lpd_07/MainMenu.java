@@ -39,8 +39,10 @@ public class MainMenu extends AppCompatActivity {
 
     // Poga "Iziet"
     public void buttonIziet(View view){
-        Intent nIntent = new Intent(MainMenu.this, Login.class);
+        Intent nIntent = new Intent(MainMenu.this, LoginActivity.class);
+        nIntent.putExtra("FBlogout", true);
         startActivity(nIntent);
+
     }
 
 }
