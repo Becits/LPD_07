@@ -1,5 +1,7 @@
 package mpi.lpd_07;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.hardware.camera2.params.Face;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +18,7 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
+import com.squareup.picasso.Picasso;
 
 import org.json.JSONObject;
 
@@ -26,10 +29,14 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_profile);
+
         try{
             String Vards = com.facebook.Profile.getCurrentProfile().getName();
             TextView VardsUz = (TextView) findViewById(R.id.tv_p_vards);
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            Picasso.with(this).load(com.facebook.Profile.getCurrentProfile().getProfilePictureUri(120, 120)).into(imageView);
             VardsUz.setText(Vards);
+
         }catch (Exception e){
             Toast toast = Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT);
             toast.show();

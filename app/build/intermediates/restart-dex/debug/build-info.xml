@@ -6,23 +6,26 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1493236739151"
+    timestamp="1493238227862"
     token="-5692805740357057554"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="284" />
+        duration="1087" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="58" />
+        duration="55" />
     <task
         name="verifier"
-        duration="6" />
+        duration="3" />
 
+    <artifact
+        location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
@@ -73,7 +76,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1493236678670"
+        timestamp="1493238044212"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\outputs\apk\app-debug.apk"
@@ -81,8 +84,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1493236739151"
+        timestamp="1493238227862"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
