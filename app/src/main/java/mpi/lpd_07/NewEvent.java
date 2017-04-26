@@ -4,6 +4,7 @@ import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.icu.text.SimpleDateFormat;
 import android.icu.util.Calendar;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Switch;
@@ -21,11 +23,14 @@ import java.text.BreakIterator;
 import java.util.Date;
 import java.util.Locale;
 
+import static android.R.attr.checked;
+
 public class NewEvent extends AppCompatActivity {
     private int year, month, day, mHour, mMinute;
     EditText dataView;
     EditText timeView;
     Switch swDraugi;
+    Button btnDraugi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +39,10 @@ public class NewEvent extends AppCompatActivity {
         dataView.setOnClickListener(etDatumsCL);
         timeView = (EditText) findViewById(R.id.et_laiks);
         timeView.setOnClickListener(etTimeCL);
+        swDraugi = (Switch) findViewById(R.id.switch_privats);
+        swDraugi.setOnClickListener(swDraugiCL);
+        btnDraugi = (Button) findViewById(R.id.btn_draugiVeidot);
+        btnDraugi.setOnClickListener(btnDraugiCL);
     }
 
 
@@ -73,6 +82,23 @@ public class NewEvent extends AppCompatActivity {
                 }
             }, mHour, mMinute, true );
             timePickerDialog.show();
+        }
+    };
+    View.OnClickListener swDraugiCL = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if(swDraugi.isChecked()){
+                btnDraugi.setVisibility(View.VISIBLE);
+            } else {
+                btnDraugi.setVisibility(View.INVISIBLE);
+            }
+        }
+    };
+    View.OnClickListener btnDraugiCL = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent nIntent = new Intent(NewEvent.this, Friends.class);
+            startActivity(nIntent);
         }
     };
 }

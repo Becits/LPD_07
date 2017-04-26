@@ -1,4 +1,4 @@
-#Thu Apr 27 02:33:09 EEST 2017
+#Thu Apr 27 02:41:47 EEST 2017
 base.0=C\:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3957df14d607b15e4fc94d111e522d6350c1a89d
 renamed.1=classes2.dex
 renamed.0=classes.dex

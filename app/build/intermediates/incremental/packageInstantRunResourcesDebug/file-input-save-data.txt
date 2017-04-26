@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 27 02:33:08 EEST 2017
+#Thu Apr 27 02:41:47 EEST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\avd_show_password.xml
 14.set=ANDROID_RESOURCE
