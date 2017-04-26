@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7c5efe0cb800cdd306defd5511afcad4225edc56">
+        sha1="f78ab8f998c925686d261777a5dc88cad3997adc">
         <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_82cb62bdaad80cb48a2b1c22a29479f335fb0644\classes.dex" />
     </item>
     <item

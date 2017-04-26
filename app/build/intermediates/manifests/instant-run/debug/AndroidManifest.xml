@@ -34,10 +34,10 @@
         <activity android:name="mpi.lpd_07.Gallery" />
         <activity
             android:name="mpi.lpd_07.Login"
-            android:label="@string/title_activity_login" />
+            android:label="Event Gallery" />
         <activity
             android:name="mpi.lpd_07.LoginActivity"
-            android:label="@string/title_activity_login" >
+            android:label="Event Gallery" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
