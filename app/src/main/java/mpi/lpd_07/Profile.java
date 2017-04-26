@@ -40,8 +40,6 @@ public class Profile extends AppCompatActivity {
             VardsUz.setText(Vards);
 
         }catch (Exception e){
-            Toast toast = Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT);
-            toast.show();
         }
 
     }

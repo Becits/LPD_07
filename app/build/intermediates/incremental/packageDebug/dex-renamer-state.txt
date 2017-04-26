@@ -1,7 +1,7 @@
-#Thu Apr 27 00:39:11 EEST 2017
-base.0=E\:\\Android\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_82cb62bdaad80cb48a2b1c22a29479f335fb0644
+#Thu Apr 27 01:40:38 EEST 2017
+base.0=C\:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3957df14d607b15e4fc94d111e522d6350c1a89d
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=E\:\\Android\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_680c182e22ae6a55259071fceacc05f2f4dda7ba\\classes.dex
-base.1=E\:\\Android\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_680c182e22ae6a55259071fceacc05f2f4dda7ba
-file.0=E\:\\Android\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_82cb62bdaad80cb48a2b1c22a29479f335fb0644\\classes.dex
+file.1=C\:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_75295e91cd873367a0c7aaae3d19fe391f3c8869\\classes.dex
+base.1=C\:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_75295e91cd873367a0c7aaae3d19fe391f3c8869
+file.0=C\:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3957df14d607b15e4fc94d111e522d6350c1a89d\\classes.dex

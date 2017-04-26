@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="E:\Android\LPD_07\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8319d9bcec3e58a9d7f07e03c31fd5be876cccdb">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_82cb62bdaad80cb48a2b1c22a29479f335fb0644\classes.dex" />
+        sha1="9b4d3bdc3720e3358ce4b81a8e930b33ff2a259a">
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3957df14d607b15e4fc94d111e522d6350c1a89d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android\LPD_07\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_680c182e22ae6a55259071fceacc05f2f4dda7ba\classes.dex" />
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_75295e91cd873367a0c7aaae3d19fe391f3c8869\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NamejzPC\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_e92753b8a754c0e06a1649f131eb48d115ccc8ac.jar" />
     </item>
 
 </items>

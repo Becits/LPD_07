@@ -116,8 +116,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
         catch (NullPointerException e)
         {
-            Toast toast = Toast.makeText(context,"null!", duration);
-            toast.show();
+
         }
 
 
