@@ -1,11 +1,13 @@
 package mpi.lpd_07;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.hardware.camera2.params.Face;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,4 +45,11 @@ public class Profile extends AppCompatActivity {
         }
 
     }
+
+    // Paariet uz pasaakuma informaacijas logu
+    public void buttonApraksts(View view){
+        Intent nIntent = new Intent(Profile.this, EventDesc.class);
+        startActivity(nIntent);
+    }
+
 }

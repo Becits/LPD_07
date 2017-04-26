@@ -20,6 +20,7 @@
         android:layout_marginRight="162dp"
         android:layout_marginStart="162dp"
         android:clickable="true"
+        android:onClick="buttonPievienot"
         app:backgroundTint="@android:color/black"
         app:fabSize="mini"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +58,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="buttonApraksts">
 
                 <ImageView
                     android:id="@+id/iv_pasiko"
@@ -80,7 +82,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:onClick="buttonApraksts">
 
                 <ImageView
                     android:id="@+id/iv_pasiko"

@@ -32,6 +32,7 @@
         <activity android:name="mpi.lpd_07.Friends" />
         <activity android:name="mpi.lpd_07.Profile" />
         <activity android:name="mpi.lpd_07.Gallery" />
+        <activity android:name="mpi.lpd_07.EventDesc" />
         <activity
             android:name="mpi.lpd_07.Login"
             android:label="Event Gallery" />

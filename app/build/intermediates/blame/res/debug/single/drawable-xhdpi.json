@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_profile_pic.png",
+        "source": "E:\\Android\\LPD_07\\app\\src\\main\\res\\drawable-xhdpi\\ic_profile_pic.png"
+    },
+    {
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_event.png",
+        "source": "E:\\Android\\LPD_07\\app\\src\\main\\res\\drawable-xhdpi\\ic_event.png"
+    }
+]
