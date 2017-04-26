@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mpi.lpd_07.NewEvent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/tv_nosaukums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasākuma nosaukums"
+        android:textSize="24sp"
+        android:layout_marginStart="34dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="44dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="34dp" />
+
+    <EditText
+        android:id="@+id/et_nosaukums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nosaukums"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_nosaukums" />
+
+    <Switch
+        android:id="@+id/switch_privats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="31dp"
+        android:text="Privāts pasākums  "
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nosaukums"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/et_datums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/et_nosaukums"
+        android:layout_marginTop="108dp"
+        app:layout_constraintTop_toBottomOf="@+id/et_nosaukums"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/et_nosaukums" />
+
+    <TextView
+        android:id="@+id/tv_datums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datums"
+        app:layout_constraintBottom_toTopOf="@+id/et_datums"
+        app:layout_constraintLeft_toLeftOf="@+id/et_datums"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/et_laiks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/et_datums"
+        app:layout_constraintRight_toRightOf="@+id/et_datums"
+        app:layout_constraintTop_toBottomOf="@+id/et_datums"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/tv_laiks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laiks"
+        app:layout_constraintBottom_toTopOf="@+id/et_laiks"
+        app:layout_constraintLeft_toLeftOf="@+id/et_laiks"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <TextView
+        android:id="@+id/tv_vieta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vieta"
+        app:layout_constraintBottom_toTopOf="@+id/et_vieta"
+        app:layout_constraintLeft_toLeftOf="@+id/et_vieta"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/et_vieta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/et_laiks"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/et_laiks"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/et_laiks"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_izveidot"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Izveidot"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
