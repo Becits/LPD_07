@@ -2,6 +2,7 @@ package mpi.lpd_07;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.icu.text.SimpleDateFormat;
 import android.icu.util.Calendar;
@@ -12,6 +13,8 @@ import android.text.format.Time;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Switch;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.text.BreakIterator;
@@ -19,14 +22,18 @@ import java.util.Date;
 import java.util.Locale;
 
 public class NewEvent extends AppCompatActivity {
-    private int year, month, day;
+    private int year, month, day, mHour, mMinute;
     EditText dataView;
+    EditText timeView;
+    Switch swDraugi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_event);
         dataView = (EditText) findViewById(R.id.et_datums);
         dataView.setOnClickListener(etDatumsCL);
+        timeView = (EditText) findViewById(R.id.et_laiks);
+        timeView.setOnClickListener(etTimeCL);
     }
 
 
@@ -56,4 +63,16 @@ public class NewEvent extends AppCompatActivity {
     private void showDate(int year, int month, int day) {
         dataView.setText(new StringBuilder().append(day).append("/").append(month).append("/").append(year));
     }
+    View.OnClickListener etTimeCL = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            TimePickerDialog timePickerDialog = new TimePickerDialog(NewEvent.this, new TimePickerDialog.OnTimeSetListener() {
+                @Override
+                public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                    timeView.setText(hourOfDay + ":" + minute);
+                }
+            }, mHour, mMinute, true );
+            timePickerDialog.show();
+        }
+    };
 }

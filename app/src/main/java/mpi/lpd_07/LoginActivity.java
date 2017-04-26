@@ -81,7 +81,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
-        boolean fbLogout = false;
+        boolean fbLogout = true;
         try{
             fbLogout = getIntent().getExtras().getBoolean("FBlogout");
         }catch (Exception e){
@@ -92,8 +92,13 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         final int duration = Toast.LENGTH_SHORT;
         final Context context = getApplicationContext();
         if (fbLogout){
-            LoginManager.getInstance().logOut();
-            fbLogout = false;
+            try{
+                LoginManager.getInstance().logOut();
+                fbLogout = false;
+            }catch (Exception e){
+
+            }
+
         }
         try{
             loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
