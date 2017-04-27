@@ -9,7 +9,5 @@ public class Gallery extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
-        Toast toast = new Toast.makeText(getApplicationContext(), "Toast", Toast.LENGTH_SHORT);
-        toast.show();
     }
 }
