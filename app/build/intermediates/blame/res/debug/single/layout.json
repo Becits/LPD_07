@@ -28,6 +28,7 @@
         "source": "C:\\Users\\NamejzPC\\.android\\build-cache\\d2739da6d143af4318d0fb7c304473350af30d85\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\NamejzPC\\.android\\build-cache\\d2739da6d143af4318d0fb7c304473350af30d85\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
@@ -38,6 +39,18 @@
     {
         "merged": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
         "source": "C:\\Users\\NamejzPC\\.android\\build-cache\\9658306d468987078c2432e725ec914a70f978fa\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+=======
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\Becis\\.android\\build-cache\\5906c2829f01335aa2ba0706e6c61ca94e58419f\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Becis\\.android\\build-cache\\7ef455cb17af0b013f1bb8d34724ec3cb3d08d42\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Android\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Becis\\.android\\build-cache\\7ef455cb17af0b013f1bb8d34724ec3cb3d08d42\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\NamejzPC\\Desktop\\LPD_07\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",

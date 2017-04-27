@@ -6,18 +6,28 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
+<<<<<<< Updated upstream
     timestamp="1493252842668"
     token="-5692805740357057554"
+=======
+    timestamp="1493251900075"
+    token="-9000695592493946217"
+>>>>>>> Stashed changes
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
+<<<<<<< Updated upstream
         duration="4975" />
+=======
+        duration="1215" />
+>>>>>>> Stashed changes
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< Updated upstream
         duration="2307" />
     <task
         name="verifier"
@@ -40,17 +50,49 @@
         type="SPLIT" />
     <artifact
         location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+=======
+        duration="152" />
+    <task
+        name="verifier"
+        duration="215" />
+
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+>>>>>>> Stashed changes
         type="SPLIT" />
     <artifact
         location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
+<<<<<<< Updated upstream
         location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+=======
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+>>>>>>> Stashed changes
         type="SPLIT" />
     <artifact
         location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
+<<<<<<< Updated upstream
         location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
@@ -81,17 +123,54 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+=======
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1493251900075"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+>>>>>>> Stashed changes
             type="SPLIT" />
         <artifact
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
+<<<<<<< Updated upstream
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+=======
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+>>>>>>> Stashed changes
             type="SPLIT" />
         <artifact
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
+<<<<<<< Updated upstream
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
@@ -100,6 +179,13 @@
         <artifact
             location="C:\Users\NamejzPC\Desktop\LPD_07\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+=======
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android\LPD_07\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+>>>>>>> Stashed changes
     </build>
 
 </instant-run>
