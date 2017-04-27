@@ -23,8 +23,6 @@ import java.text.BreakIterator;
 import java.util.Date;
 import java.util.Locale;
 
-import static android.R.attr.checked;
-
 public class NewEvent extends AppCompatActivity {
     private int year, month, day, mHour, mMinute;
     EditText dataView;

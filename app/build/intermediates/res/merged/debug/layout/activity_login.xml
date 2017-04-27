@@ -10,6 +10,7 @@ android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 tools:context="mpi.lpd_07.Login">
 
+
     <!-- Login progress -->
     <ProgressBar
         android:id="@+id/login_progress"
@@ -69,7 +70,7 @@ tools:context="mpi.lpd_07.Login">
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
+                android:text="Sign in"
                 android:textStyle="bold" />
 
             <com.facebook.login.widget.LoginButton

@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="E:\Android\LPD_07\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="abe114003daa93d7294e15e96164b8256ba0c329">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_82cb62bdaad80cb48a2b1c22a29479f335fb0644\classes.dex" />
+        sha1="a6aeb5af5a0b65dc4df959e7b692b6cfdc3a9f17">
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3957df14d607b15e4fc94d111e522d6350c1a89d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android\LPD_07\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\libs\jtds-1.2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47f9b00937707c328eccbcdd38867a799ea91b44">
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\2\jtds-1.2.7_a44b798e91a0c888ec5b6fb1caffa6fe6d27ef9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="E:\Android\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_680c182e22ae6a55259071fceacc05f2f4dda7ba\classes.dex" />
+        <dex dex="C:\Users\NamejzPC\Desktop\LPD_07\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_75295e91cd873367a0c7aaae3d19fe391f3c8869\classes.dex" />
     </item>
 
 </items>
