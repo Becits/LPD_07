@@ -99,7 +99,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@+id/iv_pasiko"
-                    android:text="Pasākuma nosaukums"
+                    android:text="Pasākums nr. 2"
                     android:textSize="24sp" />
             </RelativeLayout>
 

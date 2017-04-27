@@ -25,14 +25,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="mpi.lpd_07.MainMenu" >
-        </activity>
-        <activity android:name="mpi.lpd_07.NewEvent" />
-        <activity android:name="mpi.lpd_07.Events" />
-        <activity android:name="mpi.lpd_07.Friends" />
-        <activity android:name="mpi.lpd_07.Profile" />
-        <activity android:name="mpi.lpd_07.Gallery" />
-        <activity android:name="mpi.lpd_07.EventDesc" />
+        <activity
+            android:name="mpi.lpd_07.MainMenu"
+            android:label="Izvēlne" />
+        <activity
+            android:name="mpi.lpd_07.NewEvent"
+            android:label="Pievienot jaunu pasākumu" />
+        <activity
+            android:name="mpi.lpd_07.Events"
+            android:label="Pasākumi" />
+        <activity
+            android:name="mpi.lpd_07.Friends"
+            android:label="Draugi" />
+        <activity
+            android:name="mpi.lpd_07.Profile"
+            android:label="Profils" />
+        <activity
+            android:name="mpi.lpd_07.Gallery"
+            android:label="Galerija" />
+        <activity
+            android:name="mpi.lpd_07.EventDesc"
+            android:label="Pasākuma apraksts" />
         <activity
             android:name="mpi.lpd_07.Login"
             android:label="Event Gallery" />
